@@ -1,0 +1,32 @@
+Project:
+Tada
+
+Homepage:
+http://tadaphp.sourceforge.net
+
+Synopsis:
+A simple include to handle all communication between PHP and MySQL.
+
+Collaborators:
+Tim Habersack (tada@citracode.com)
+
+Feature List:
+
+  * Query results are returned via intuitive arrays
+  * Allows to control whether reusing a db link or creating a new link
+  * The select() and insert() functions take care of everything
+  * Handles escaping for prevention of SQL injection
+  * Support for multiple database configurations
+
+More Info:
+You put in your database connection information, then can use the handy functionaliy of Tada and all the tedious mysql functions are taken care of on the backend.  Tada handles the escaping of data, so SQL injections are not a problem.  It also can easily support connecting to various databases.
+
+Configuration:
+In tada.inc.php, change the $conn[0] info to your database info.  You can add additional $conn[x] for as many database connections you will need.  And that's it.
+
+Use:
+See the example.php
+
+
+
+
