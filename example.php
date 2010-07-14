@@ -1,7 +1,7 @@
 <?php
 include 'tada.inc.php';
 
-// Returns a multidimensional array.
+// Test data
 $user = "dantheman";
 
 // This is what the select() is looking for: select($query, $params=false, $openyn=1, $closeyn=1, $usingdb=0)
