@@ -6,7 +6,7 @@
 //
 
 //Set your database connection(s) here.  Add another connection if you will be connecting to different databases
-$conn[0] = new Connection("db.lab.citracode.com","citralabuser","pa55w0rd","citralabdb");
+$conn[0] = new Connection("mysql.example.com","username","password","databasename");
 //$conn[1] = new Connection("mysql.example.com","username","password","databasename");
 //$conn[2] = ...
 
